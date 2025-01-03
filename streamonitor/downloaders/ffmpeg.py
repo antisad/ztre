@@ -27,7 +27,7 @@ def getVideoFfmpeg(self, url, filename):
         '-i', url,
         '-c:a', 'copy',
         '-c:v', 'copy',
-        '-fs', '4180000000',
+        '-fs', '2090000000',
     ])
 
     if SEGMENT_TIME is not None:
